@@ -9,6 +9,7 @@
 
 </head>
 <body>
+    <div class="container">
 
     <form>
         <div class="mb-3">
@@ -27,8 +28,8 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
 
-
-
+    </div>
+    <div class="container">
 
     <script>
        /* document.write("hello java script")
@@ -72,7 +73,7 @@
 
         */
        //if and else programming code.
-        var age =27;
+       /* var age =27;
         var City= "Dhaka";
        if(age>18 && City=="Dhaka"){
         document.write('You are adult')
@@ -82,9 +83,90 @@
        }
        //himon talukdar 
 
+     /*  switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
+*/
+// if else using kore result sheet
+var Marks = 84;
+/*
+if(Marks>=80){
+    document.write("A+");
+}
+else if (Marks<80 && Marks>70){
+    document.write("A");
+}
+else if(Marks<70 && Marks>=60){
+    document.write("A-")
+}
+else if (Marks<60 && Marks>=50){
+    document.write("B");
+}else if (Marks<50 && Marks>=40){
+    document.write("c");
+}else if (Marks<40 && Marks>=33){
+    document.write("D")
+}
+else{
+    document.write("Fall!!!!!");
+}
+
+*/
+
+var Marks =90;
+switch(true){
+
+        case (Marks<100 && Marks>=80):
+            document.write('A+');
+            break;
+        
+            case (Marks<80 && Marks>=70):
+            document.write('A');
+            break;  
+            
+            case (Marks<70 && Marks>=60):
+            document.write('A-');
+            break;
+            case (Marks<60 && Marks>=50):
+            document.write('B');
+            break;
+            case (Marks<50 && Marks>=40):
+            document.write('C');
+            break;
+            case (Marks<40 && Marks>= 33):
+            document.write('D');
+            break;
+            default:
+                document.write('F')
+
+
+
+};
+
+
+
+
     </script> 
     
-
+</div>
     
 </body>
 </html>
