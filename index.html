@@ -245,7 +245,7 @@ do {
 } 
 while(i<10);
 */
-
+/*
 var i;
 for(i=0; i<10; i++){
       if(i===3 || i===7){
@@ -273,8 +273,18 @@ function addTwoLine(){
   num2=20;
   num3=num1+num2;
   document.write(num3+"<br>");
-}addTwoLine();
+}addTwoLine(25,30);
 addTwoLine();
+*/
+
+var numArray =[30,32,40,55,58,60,80,90];
+
+var result= numArray.filter(function(item){
+  
+      return item>50
+});
+document.write(result);
+
 
     </Script>
 
